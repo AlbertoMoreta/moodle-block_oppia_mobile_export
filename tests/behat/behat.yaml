@@ -1,0 +1,1404 @@
+default:
+  formatters:
+    moodle_progress:
+      output_styles:
+        comment:
+          - magenta
+    html:
+      output_path: D:/trabajo/DigitalCampus/dev/xampp7/moodle3_behat_data/report
+  suites:
+    default:
+      paths:
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/policy/tests/behat/acceptances.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/access_permissions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/cohort/tests/behat/access_visible_cohorts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/accessibilitychecker/tests/behat/accessibilitychecker.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/accessibilityhelper/tests/behat/accessibilityhelper.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/brickfield/tests/behat/accessresults.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/accessreview/tests/behat/accessreview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/accessreview/tests/behat/accessreview_results.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/payment/tests/behat/accounts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/action_modal.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activities_edit_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activities_edit_name.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activities_group_icons.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activities_indentation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activities_visibility_icons.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activity_chooser.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/progress/tests/behat/activity_completion_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/progress/tests/behat/activity_completion_report_filter.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/activity_info_completion_automatic.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/activity_info_completion_manual.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activity_navigation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/activity_navigation_with_restrictions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/add_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/add_badge.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddimageortext/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddmarker/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddwtos/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/description/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/gapselect/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/match/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multianswer/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multichoice/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/numerical/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/shortanswer/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/truefalse/tests/behat/add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tests/behat/add_blocks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/my/tests/behat/add_blocks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/add_blocks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/add_choice.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/cohort/tests/behat/add_cohort.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/comments/tests/behat/add_comment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/files/tests/behat/add_custom_file_type.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/add_entries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/filetypes/tests/behat/add_filetypes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/add_forum.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/add_forum_inline.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/add_h5pactivity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/add_quiz.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/recent/tests/behat/add_recent.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/scorm/tests/behat/add_scorm.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/tests/behat/add_to_group.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/site_main_menu/tests/behat/add_url.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/addblockinactivity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/addnewuser.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/addtool.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/addtype.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/addunconfiguredblock.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/addunsupportedactivity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/contenttype/h5p/tests/behat/admin_replace_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/contenttype/h5p/tests/behat/admin_upload_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/advanced_search.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/format/aiken/tests/behat/aiken_export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/format/aiken/tests/behat/aiken_import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/report/grader/tests/behat/ajax_grader.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/align/tests/behat/align.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/all_other_answers_catch.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/allow_another_attempt.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/allow_preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/alpha_chooser.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/feedback/editpdf/tests/behat/annotate_pdf.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/anonymous.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/assign_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/assign_comments_no_error.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/assign_course_reset.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/assign_group_override.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/assign_hidden.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/assign_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/assign_user_override.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/attempt_basic.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/attempt_begin.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/attempt_options.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/attempt_redo_questions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/attempt_require_previous.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/auth/manual/tests/behat/auth_manual.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/auto_creation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/autocomplete.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/tests/behat/autosave.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/completion/tests/behat/availability_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/completion/tests/behat/availability_completion_previous.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/date/tests/behat/availability_date.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/grade/tests/behat/availability_grade.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/group/tests/behat/availability_group.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/grouping/tests/behat/availability_grouping.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/profile/tests/behat/availability_profile.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/award_badge.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/award_badge_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/backpack.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddimageortext/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddmarker/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddwtos/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/description/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/match/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multichoice/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/numerical/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/shortanswer/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/truefalse/tests/behat/backup_and_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/backup.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/util/ui/tests/behat/backup_courses.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/backup_restore.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/recyclebin/tests/behat/backup_user_data.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/report/overview/tests/behat/basic.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/report/responses/tests/behat/basic.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/report/statistics/tests/behat/basic.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/report/history/tests/behat/basic_functionality.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/recyclebin/tests/behat/basic_functionality.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/lti/tests/behat/basic_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/oauth2/tests/behat/basic_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/gapselect/tests/behat/basic_test.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_modules/tests/behat/block_activity_modules.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/badges/tests/behat/block_badges.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/badges/tests/behat/block_badges_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/badges/tests/behat/block_badges_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/badges/tests/behat/block_badges_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_menu/tests/behat/block_blog_menu_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_menu/tests/behat/block_blog_menu.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_menu/tests/behat/block_blog_menu_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_menu/tests/behat/block_blog_menu_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_recent/tests/behat/block_blog_recent_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_recent/tests/behat/block_blog_recent.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_recent/tests/behat/block_blog_recent_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_recent/tests/behat/block_blog_recent_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/calendar_month/tests/behat/block_calendar_month.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/calendar_month/tests/behat/block_calendar_month_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/calendar_month/tests/behat/block_calendar_month_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/calendar_month/tests/behat/block_calendar_month_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/calendar_upcoming/tests/behat/block_calendar_upcoming_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/calendar_upcoming/tests/behat/block_calendar_upcoming_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/calendar_upcoming/tests/behat/block_calendar_upcoming_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/comments/tests/behat/block_comment_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/comments/tests/behat/block_comment_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/comments/tests/behat/block_comment_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/comments/tests/behat/block_comment_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/completionstatus/tests/behat/block_completionstatus_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/completionstatus/tests/behat/block_completionstatus.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/completionstatus/tests/behat/block_completionstatus_manual_other.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/completionstatus/tests/behat/block_completionstatus_manual_self.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/course_list/tests/behat/block_course_list_category.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/course_list/tests/behat/block_course_list_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/course_list/tests/behat/block_course_list_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/course_list/tests/behat/block_course_list_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/course_summary/tests/behat/block_course_summary_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/course_summary/tests/behat/block_course_summary_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/block_editing.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_adminsettings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_customfield.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_favourite.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_hidden.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_pagelimit_persistence.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_pagination.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myoverview/tests/behat/block_myoverview_progress.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myprofile/tests/behat/block_myprofile_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myprofile/tests/behat/block_myprofile.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myprofile/tests/behat/block_myprofile_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myprofile/tests/behat/block_myprofile_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/myprofile/tests/behat/block_myprofile_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/online_users/tests/behat/block_online_users_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/online_users/tests/behat/block_online_users_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/online_users/tests/behat/block_online_users_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/private_files/tests/behat/block_private_files_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/private_files/tests/behat/block_private_files_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/private_files/tests/behat/block_private_files_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/private_files/tests/behat/block_private_files_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/recentlyaccessedcourses/tests/behat/block_recentlyaccessedcourses_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/recentlyaccesseditems/tests/behat/block_recentlyaccesseditems_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/search_forums/tests/behat/block_search_forums_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/search_forums/tests/behat/block_search_forums_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/section_links/tests/behat/block_section_links_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/timeline/tests/behat/block_timeline_courses.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/timeline/tests/behat/block_timeline_dates.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/timeline/tests/behat/block_timeline_pagelimit_persistence.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/block_user.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blog/tests/behat/blog_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/blog_tags/tests/behat/blogtag.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/bold/tests/behat/bold.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/book_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/admin_bookmarks/tests/behat/bookmark_admin_pages.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/competency/tests/behat/breakdown_by_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/browse_users.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/bulk_edit_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/bulk_editenrolment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/report/singleview/tests/behat/bulk_insert_grades.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/bulk_message.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/bulk_message.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/bulk_release_anon_submissions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/bulk_remove_submissions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/calendar/tests/behat/calendar.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/calendar/tests/behat/calendar_import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/calendar/tests/behat/calendar_lookahead.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/cancel_add_file.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/capability_message_any_user.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/categories.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/category_change_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/calendar/tests/behat/category_events.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/category_management.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/category_resort.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/category_role_assignment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/login/tests/behat/change_password.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/change_response.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/charmap/tests/behat/charmap.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/chat/tests/behat/chat_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/chat/tests/behat/chat_calendar_events.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/chat/tests/behat/chat_course_reset.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/chat/tests/behat/chat_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/choice_availability.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/choice_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/tests/behat/clean.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/clear/tests/behat/clear.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/task/tests/behat/clear_fail_delay.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multichoice/tests/behat/clearanswers.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/collaborative_individual.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/collapse/tests/behat/collapse.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/tag/tests/behat/collections.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blog/tests/behat/comment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/comment_inline.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/feedback/editpdf/tests/behat/comment_popup_menu.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/completion_condition_attempts_used.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/completion_condition_end_reached.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/completion_condition_minimum_attempts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/completion_condition_passing_grade.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/scorm/tests/behat/completion_condition_require_status.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/completion_condition_time_spent.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/completion_course_page_display.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/completion_manual.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/completion_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/completion_other_courses.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/completion/tests/behat/completion_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/condition/completion/tests/behat/conditional_bug.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tests/behat/configure_block_throughout_site.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tag_youtube/tests/behat/configure_tag_youtube_block.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/html/tests/behat/configuring_html_block.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/mentees/tests/behat/configuring_mentees_block.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tag_flickr/tests/behat/configuring_tag_flickr_block.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/policy/tests/behat/consent.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/contact_privacy_officer.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/contentbank_link.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/contentitem.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/contentitemregistration.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_activity_dates.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/html/tests/behat/course_block.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_browsing.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_category_management_listing.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_change_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/lp/tests/behat/course_competencies.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_contact.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_controls.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_creation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_download_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_download_content_permissions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/files/tests/behat/course_files.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_relativedatesmode.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/competency/tests/behat/course_report_competency.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/completion/tests/behat/course_report_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/log/tests/behat/course_report_log.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/loglive/tests/behat/course_report_loglive.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/monitor/tests/behat/course_report_monitor.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/outline/tests/behat/course_report_outline.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/participation/tests/behat/course_report_participation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/progress/tests/behat/course_report_progress.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_request.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_resort.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/course_search.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/course_summary.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/coursemapping.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/coursetags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/create_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/uploadcourse/tests/behat/create.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/create_chapters.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/format/singleactivity/tests/behat/create_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/create_delete_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/create_folders.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/create_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/create_shortcut.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/usertours/tests/behat/create_tour.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/criteria_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/criteria_cohort.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/criteria_competency.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/criteria_profile.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/task/tests/behat/cron_disabled.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/custom_completion_display_conditions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/custom_fields.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/custom_profile_fields.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/customfields_locked.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/customfields_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/customlang/tests/behat/customisation_create.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/tests/behat/customtoolbar.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/data_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/data_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/data_generators.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/data_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/datadelete.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/dataexport.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/date_availability.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/datetime_any.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/datetime_strings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/default_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/field/textarea/tests/behat/default_value.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/defaultsettings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/define_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blog/tests/behat/delete.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/comments/tests/behat/delete_comment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/delete_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/delete_files.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/delete_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/licensemanager/tests/behat/delete_license.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/delete_messages.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/delete_question_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/delete_questions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/delete_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/tag/tests/behat/delete_tag.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/delete_users.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/tests/behat/direction.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/contenttype/h5p/tests/behat/disable_contenttypes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/tests/behat/disablecontrol.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/textarea/tests/behat/disablecontrol.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/tinymce/tests/behat/disablecontrol.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/monitor/tests/behat/disabled.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/discussion_display.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/discussion_lock.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/discussion_navigation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/discussion_post_threshold_warning.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/discussion_subscriptions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/tests/behat/display_availability.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/display_book_description.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/display_error_message_onbadformat.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/display_grade.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/imscp/tests/behat/display_imscp_description.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/display_lesson_description.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/news_items/tests/behat/display_news.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/resource/tests/behat/display_resource.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/display_result_types.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/display_short_names.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/auth/tests/behat/displayloginfailures.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/double_enrolments_summary_data.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/download_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/util/ui/tests/behat/duplicate_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/duplicate_lesson_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/duplicate_questions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/usertours/tests/behat/duplicate_tour.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/site_main_menu/tests/behat/edit_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/social_activities/tests/behat/edit_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/availability/tests/behat/edit_availability.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/tinymce/tests/behat/edit_available_icons.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddimageortext/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddmarker/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddwtos/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/description/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/match/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multichoice/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/numerical/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/shortanswer/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/truefalse/tests/behat/edit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/tests/behat/edit_categories.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/edit_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/format/topics/tests/behat/edit_delete_sections.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/format/weeks/tests/behat/edit_delete_sections.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/tests/behat/edit_fields_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/edit_file.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/accessrule/seb/tests/behat/edit_form.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/format/singleactivity/tests/behat/edit_format_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/grading/form/guide/tests/behat/edit_guide.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/licensemanager/tests/behat/edit_license.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/edit_min_max_fields.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/edit_navigation_options.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/edit_permissions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/edit_post_student.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/edit_post_teacher.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/edit_previous_feedback.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/edit_profile_notification.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/edit_question_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/edit_questions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/edit_questions_standard_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/grading/form/rubric/tests/behat/edit_rubric.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/edit_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/edit_student_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/tag/tests/behat/edit_tag.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/edit_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/edit_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/edit_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/edit_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/edit_user_enrolment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/edit_user_roles.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_add.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_add_from_question_bank.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_add_random.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_edit_random.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_move_by_click.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_remove_multiple_questions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_remove_question.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_repaginate.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_require_previous.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_section_headings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_set_marks_no_attempts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/editing_set_marks_with_attempts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/edituserpassword.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/oauth2/tests/behat/email_verification.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/embedded_images.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/enable_manual_complete_mark.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/enable_multiple_accounts_use_same_email.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/enrol_cohort_list.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/meta/tests/behat/enrol_meta.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/tests/behat/enrol_user.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/uploadcourse/tests/behat/enrolments.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/entries_always_editable.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/entries_require_approval.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/equation/tests/behat/equation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/events.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/example_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/navigation/tests/behat/expand_courses_node.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/calendar/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/customlang/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddimageortext/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddmarker/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddwtos/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/description/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/match/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multichoice/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/numerical/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/shortanswer/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/truefalse/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/export/txt/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/export/xml/tests/behat/export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/export_import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/export_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/favourite_conversations.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/favourite_discussion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/fee/tests/behat/fee.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/feedback_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/feedback/comments/tests/behat/feedback_comments.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/feedback/file/tests/behat/feedback_file.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/feedback_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/field/checkbox/tests/behat/field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/field/date/tests/behat/field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/field/select/tests/behat/field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/field/text/tests/behat/field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/field/textarea/tests/behat/field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/file_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/file_type_restriction.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/submission/file/tests/behat/file_type_restriction.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/file_type_restriction.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/contentbank/tests/behat/file_update.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/outline/tests/behat/filter.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/filter_by_marker.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/filter_drafts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/filter_idnumber.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/log/tests/behat/filter_log_actions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/log/tests/behat/filter_log.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/filter_participants.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/filter_participants_showall.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/participation/tests/behat/filter_participation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/filter_questions_by_tag.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/filter_users.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/filter_users_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/tag/tests/behat/flag_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/folder/tests/behat/folder_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/force_group_mode.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/forum_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/forum_export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/forum_subscriptions_availability.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/forum_subscriptions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/forum_subscriptions_default.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/forum_subscriptions_management.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/forum_subscriptions_mode_behaviour.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/lp/tests/behat/framework_crud.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/frontpage_display_modes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/full_name_display.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/general_section.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/get_and_set_fields.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/get_and_set_fields_in_containers.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/glossary_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/glossary_random/tests/behat/glossary_random.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/glossary_random/tests/behat/glossary_random_frontpage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/glossary_random/tests/behat/glossary_random_global.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_UI_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_aggregation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_aggregation_changes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_average.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_calculated_grade_items_20150627.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_calculated_grade_items.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_calculated_weights.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/grading/form/rubric/tests/behat/grade_calculation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_category_validation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_contribution_with_extra_credit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/grade_forum.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_grade_minmax_change.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_hidden_items.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_hidden_items_locked_category.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_item_duplication.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_item_form_unhide.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_item_validation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_letter_boundary_20160518.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_letter_boundary.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_letter_logging.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_mingrade.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_minmax.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_natural_exclude_empty_20150619.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_natural_exclude_empty.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_natural_normalisation_20150619.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_natural_normalisation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_override_letter.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_point_maximum.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_regrade_do_not_override.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_scales_aggregation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_scales.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_scales_logging.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_single_item_scales.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_to_pass.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/grade_to_pass.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/tests/behat/grade_view.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/grade_view_discussion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/graderescale_for_database_pointscale.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/graderescale_for_forum_pointscale.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/graderescale_for_glossary_pointscale.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/graderescale_for_lesson_pointscale.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/grading_app_filters.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/grading_attempts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/report/grading/tests/behat/grading.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/grading_status.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/grant_extension.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/feedback/editpdf/tests/behat/group_annotations.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/group_conversation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/group_description.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/group_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/groups_import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/groups_in_course_no_groups_in_forum.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/guest/tests/behat/guest_access.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/h5p/tests/behat/h5p.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/filter/displayh5p/tests/behat/h5p_filter.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/h5p/tests/behat/h5p_libraries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/h5p/tests/behat/h5p_overview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/h5pactivity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tests/behat/hidden_block_region.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/hide_grader.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/hideif.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/highscoreswithoutgroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/highscoreswithscales.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/highscoreswithscalesandgroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/highscoreswithseperategroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/highscoreswithvisiblegroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/html/tests/behat/html.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/httpsreplace/tests/behat/httpsreplace.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/i_am_on_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/id_uniqueness.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/image/tests/behat/image.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddimageortext/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddmarker/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddwtos/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/description/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/match/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multichoice/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/numerical/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/shortanswer/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/truefalse/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/format/webct/tests/behat/import.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/util/ui/tests/behat/import_contentbank_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/util/ui/tests/behat/import_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/import_entries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/format/gift/tests/behat/import_export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/format/xml/tests/behat/import_export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/customlang/tests/behat/import_files.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/import_fillintheblank_question.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/util/ui/tests/behat/import_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/import_images.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/customlang/tests/behat/import_mode.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/moodle2/tests/behat/import_multiple_times.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/gapselect/tests/behat/import_test.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/format/webct/tests/behat/importcalculated.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/imscp/tests/behat/imscp_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/include_inactive.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/indent/tests/behat/indent.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/lti/tests/behat/index_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/info_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/inpage_reply.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/inplaceeditable.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/input-purpose.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/invalid_allcountrycodes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/italic/tests/behat/italic.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/self/tests/behat/key_holder.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/keyboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/keyholder.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/label/tests/behat/label_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/label/tests/behat/label_idnumber.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/label/tests/behat/label_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/language_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/largeforms.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_complete_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_course_reset.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_delete_answers.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_edit_cluster.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_edit_pages.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_essay_question.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_exit_enter_clusters.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_group_override.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_informations_at_end.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_navigation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_number_of_student_attempts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_numerical_question_with_locale.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_outline_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_practice.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_progress_bar.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_question_attempts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_review.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_student_dashboard.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_student_resume.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_user_override.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_with_clusters.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/lesson_with_subcluster.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/files/tests/behat/license_help_modal.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/licensemanager/tests/behat/license_manager.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/limit_responses.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/link/tests/behat/link.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/link_to_gradebook.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/list_steps.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/locking.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/locking.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/log_entries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/auth/tests/behat/login.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/login/tests/behat/login_block.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/loginout.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/loglive/tests/behat/loglive_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/log/tests/behat/logstore_store_visibility_change.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/lowscoreswithoutgroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/lowscoreswithscales.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/lowscoreswithscalesandgroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/lowscoreswithseperategroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/activity_results/tests/behat/lowscoreswithvisiblegroups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/lti_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/eventlist/tests/behat/mainsection.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/manual/tests/behat/manage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tests/behat/manage_blocks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/manage_categories.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/availabilityconditions/tests/behat/manage_conditions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/contenttype/h5p/tests/behat/manage_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/manage_data_requests.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/manage_defaults.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/langimport/tests/behat/manage_langpacks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/analytics/tests/behat/manage_models.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/manage_purposes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/task/tests/behat/manage_tasks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/manage_tokens.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/manageapproved.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/policy/tests/behat/managepolicies.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/xmldb/tests/behat/mandatory_persistent_fields.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/manipulate_forms.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/manually_mark_question.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/max_file_size.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/max_number_sections.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/media/tests/behat/media.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/message_admin_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/message_delete_conversation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/message_drawer_manage_contacts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/message_manage_notification_preferences.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/message_manage_preferences.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/participation/tests/behat/message_participants.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/message_preferences.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/message_send_messages.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/calendar/tests/behat/minicalendar.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/scorm/tests/behat/missing_org.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/modgrade_validation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/modify_choice.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/media/player/videojs/tests/behat/modules.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/move_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/move_discussion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/move_question_categories.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/move_sections.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/multichoice.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/html/tests/behat/multiple_instances.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/multiple_options.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/multipleattempt.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/scorm/tests/behat/multisco_review_mode.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/mute_conversations.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/my_data_requests.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/my_forum_posts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/my_home.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/name_fields.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/nasty_strings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/navigate_course_list.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/grading/form/rubric/tests/behat/negative_points.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/no_groups_in_course.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/nobadge_navigation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/non_anonymous.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/output/popup/tests/behat/notification_popover_preferences.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/output/popup/tests/behat/notification_popover_unread.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/online_submissions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/oppia_mobile_export/tests/behat/oppia_mobile_export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/policy/tests/behat/optional.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/orderedlist/tests/behat/orderedlist.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/outcome_grading.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/outline/tests/behat/outline.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/roles/tests/behat/override_roles_highlighting.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/overview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/overwrite_file.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/page/tests/behat/page_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/page/tests/behat/page_appearance.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/page_history.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/page_titles.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/paged_course_navigation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/participants_in_group_modes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/navigation/tests/behat/participants_link.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/notes/tests/behat/participants_notes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/password_protection.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/permissionmanager.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/lp/tests/behat/plan_crud.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/lp/tests/behat/plan_workflow.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/portfolio_export.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/post_to_multiple_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/posts_ordering_blog.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/posts_ordering_general.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/feedback/comments/tests/behat/preserve_changes_on_validation_failure.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/prevent_duplicate_entries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/prevent_submission_changes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddimageortext/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddmarker/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/ddwtos/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/description/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/essay/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/match/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/multichoice/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/numerical/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/shortanswer/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/type/truefalse/tests/behat/preview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/preview_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/preview_question.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/print_friendly_version.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/private_replies.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/private_replies.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/dataprivacy/tests/behat/protecteddelete.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/grading/form/guide/tests/behat/publish_guide_template.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/publish_info.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/publish_results_anonymously.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/publish_results.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/grading/form/rubric/tests/behat/publish_rubric_templates.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/purge_caches.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/question_categories.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/question_categories_idnumber.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/question_types.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/question_types_non_anon.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/questions_images.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/manual/tests/behat/quickenrolment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/quickgrading.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/quiz_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/quiz_activity_completion_locked.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/quiz_group_override.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/quiz_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/quiz_reset.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/quiz_user_override.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/readonlyform.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/recent_activity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/recommend_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/xmldb/tests/behat/reconcile_xmldb_files.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/report/overview/tests/behat/regrading.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/relative_dates.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/auth/tests/behat/rememberusername.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/choice/tests/behat/remove_choice_options.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/remove_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/rename_roles.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/renametool.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/reopen_locked_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/reorganize_chapters.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/form/tests/behat/repeat_defaults.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/required_entries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/tests/behat/required_field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/rescale_grades.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/my/tests/behat/reset_all_pages.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/my/tests/behat/reset_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/reset_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/reset_wiki_comments_tags_files.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/resource/tests/behat/resource_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/util/ui/tests/behat/restore_moodle2_courses.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/backup/util/ui/tests/behat/restore_moodle2_courses_settings.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/analytics/tests/behat/restoredefault.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/restrict_activity_by_date.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/restrict_activity_by_grade.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/restrict_available_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tests/behat/restrict_available_blocks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/my/tests/behat/restrict_available_blocks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/restrict_section_availability.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/result_fillin.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/result_longfillin.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tests/behat/return_block_original_state.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/grading/form/rubric/tests/behat/reuse_own_rubrics.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/role_renaming.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/role_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/tests/behat/role_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/role_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/monitor/tests/behat/rule.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/task/tests/behat/running_tasks.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/scorm/tests/behat/save_progress_on_unload.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/scorm/tests/behat/scorm_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/scorm/tests/behat/scorm_no_calendar_capabilities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/search_areas.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/search/tests/behat/search_by_user.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/search_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/contentbank/tests/behat/search_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/glossary/tests/behat/search_entries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/search/tests/behat/search_information.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/search/tests/behat/search_query.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/search_recommended_activities.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/section_highlighting.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/section_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/securelayout.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/contentbank/tests/behat/select_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/select_file.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/select_questions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/self_conversation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/enrol/self/tests/behat/self_enrolment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/h5pactivity/tests/behat/sending_attempt.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/separate_group_discussions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/separate_group_grade_forum.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/separate_group_single_group_discussions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/set_admin_settings_value.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/set_availability.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/set_default_homepage.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/set_email_display.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/quiz/tests/behat/settings_form_fields_disableif.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/search/tests/behat/setup_search_engine.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/capability/tests/behat/show_capabilies.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/capability/tests/behat/show_contexts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/capability/tests/behat/show_differences.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/book/tests/behat/show_hide_chapters.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/show_nonrespondents.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/section_links/tests/behat/show_section_name.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/showuseridentity.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/auth/email/tests/behat/signup.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/single_forum_discussion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/report/singleview/tests/behat/singleview.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/format/social/tests/behat/social_adjust_discussion_count.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/profile/field/social/tests/behat/social_profile_field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/sort_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/question/tests/behat/sort_questions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/split_forum_discussion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/tag/tests/behat/standard_tags.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/steps_blind_marking.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/strike/tests/behat/strike.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/recent_activity/tests/behat/structural_changes.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/submission_comments.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/submission_types.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/tests/behat/submit_without_group.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/subscript/tests/behat/subscript.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/monitor/tests/behat/subscription.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/summary_data_access.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/summary_data_attachments.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/summary_data_post_dates.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/summary_filter_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/report/summary/tests/behat/summary_filter_no_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/superscript/tests/behat/superscript.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/survey/tests/behat/survey_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/survey/tests/behat/survey_types.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/report/grader/tests/behat/switch_views.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/table/tests/behat/table.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/table_column_visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/table_sorting.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/tags/tests/behat/tagcloud.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/tag/tests/behat/tagindex.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/teacher_grade_essays.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/completion/tests/behat/teacher_manual_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/contenttype/h5p/tests/behat/teacher_replace_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/contenttype/h5p/tests/behat/teacher_upload_content.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/lp/tests/behat/template_crud.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/feedback/tests/behat/templates.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/behat/tests/behat/test_environment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/time_limit.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/timed_discussions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/timezone.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/title/tests/behat/title.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lti/tests/behat/toolconfigure.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/usertours/tests/behat/tour_accessibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/usertours/tests/behat/tour_filter.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/usertours/tests/behat/tour_navigation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/track_read_posts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/underline/tests/behat/underline.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/customfield/tests/behat/unique_field.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/editor/atto/plugins/unorderedlist/tests/behat/unorderedlist.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/message/tests/behat/unread_messages.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/uploadcourse/tests/behat/update.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/group/tests/behat/update_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/cohort/tests/behat/upload_cohort_users.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/cohort/tests/behat/upload_cohorts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/upload/tests/behat/upload_file.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/uploaduser/tests/behat/upload_users.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/url/tests/behat/url_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/outline/tests/behat/user.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/lp/tests/behat/user_evidence_comp_link.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tool/lp/tests/behat/user_evidence_crud.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/user_grade_navigation.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/log/tests/behat/user_log.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/report/user/tests/behat/user_view.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/lib/tests/behat/userfeedback.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/usersessions/tests/behat/usersessions_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/auth/tests/behat/validateagedigitalconsentmap.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/auth/tests/behat/verifyageofconsent.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/badges/tests/behat/view_badge.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/cohort/tests/behat/view_cohorts.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/data/tests/behat/view_entries.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/view_full_profile.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/blocks/navigation/tests/behat/view_my_courses.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/view_participants.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/view_participants_groups.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/view_preferences.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/user/tests/behat/view_preferences_page.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/assign/feedback/editpdf/tests/behat/view_previous_annotations.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/report/configlog/tests/behat/view_report.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/course/tests/behat/view_subfolders_inline.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/grade/report/user/tests/behat/view_usereport.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/contentbank/tests/behat/visibility.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/forum/tests/behat/visible_group_discussions.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/admin/tests/behat/webservice_users.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/wiki_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/wiki_comments.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/wiki_formats.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/wiki/tests/behat/wiki_search.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/workshop_activity_completion.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/workshop_assessment.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/workshop_late_submission.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/workshop/tests/behat/workshop_section_remembered.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/mod/lesson/tests/behat/wrong_answer_continue.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/repository/tests/behat/zip_and_unzip.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/theme/boost/tests/behat/contextmenu.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/theme/boost/tests/behat/regionmainsettingsmenu.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/theme/boost/tests/behat/settingstabs.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/theme/boost/tests/behat/tour_filter.feature'
+      contexts:
+        - emuse\BehatHTMLFormatter\Context\ScreenshotContext:
+             screenshotDir: build/html/behat/assets/screenshots
+        - behat_accessibility
+        - behat_action_menu
+        - behat_admin
+        - behat_app
+        - behat_assignfeedback_editpdf
+        - behat_auth
+        - behat_auth_email
+        - behat_backup
+        - behat_block_comments
+        - behat_block_site_main_menu
+        - behat_block_social_activities
+        - behat_blocks
+        - behat_calendar
+        - behat_cohort
+        - behat_completion
+        - behat_core_form
+        - behat_core_question
+        - behat_course
+        - behat_data_generators
+        - behat_deprecated
+        - behat_editor_atto
+        - behat_enrol
+        - behat_filepicker
+        - behat_filters
+        - behat_forms
+        - behat_general
+        - behat_grade
+        - behat_gradereport_grader
+        - behat_grading
+        - behat_gradingform_guide
+        - behat_gradingform_rubric
+        - behat_groups
+        - behat_hooks
+        - behat_login
+        - behat_message
+        - behat_message_popup
+        - behat_mod_chat
+        - behat_mod_choice
+        - behat_mod_data
+        - behat_mod_feedback
+        - behat_mod_forum
+        - behat_mod_glossary
+        - behat_mod_quiz
+        - behat_mod_workshop
+        - behat_navigation
+        - behat_permissions
+        - behat_qtype_ddimageortext
+        - behat_qtype_ddmarker
+        - behat_qtype_ddwtos
+        - behat_qtype_gapselect
+        - behat_qtype_multichoice
+        - behat_question
+        - behat_report_outline
+        - behat_repository_upload
+        - behat_search
+        - behat_tool_dataprivacy
+        - behat_tool_langimport
+        - behat_tool_lp
+        - behat_tool_lp_data_generators
+        - behat_tool_policy
+        - behat_tool_task
+        - behat_tool_usertours
+        - behat_transformations
+        - behat_user
+        - behat_workshopallocation_manual
+    classic:
+      paths:
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/theme/classic/tests/behat/courseadministrationmenu.feature'
+        - 'D:/trabajo/DigitalCampus/dev/xampp7/htdocs/moodle3/theme/classic/tests/behat/pageadministrationmenu.feature'
+      contexts:
+        - behat_accessibility
+        - behat_action_menu
+        - behat_app
+        - behat_assignfeedback_editpdf
+        - behat_auth
+        - behat_auth_email
+        - behat_backup
+        - behat_block_comments
+        - behat_block_site_main_menu
+        - behat_block_social_activities
+        - behat_calendar
+        - behat_cohort
+        - behat_completion
+        - behat_core_form
+        - behat_core_question
+        - behat_data_generators
+        - behat_deprecated
+        - behat_editor_atto
+        - behat_enrol
+        - behat_filepicker
+        - behat_filters
+        - behat_forms
+        - behat_general
+        - behat_gradereport_grader
+        - behat_grading
+        - behat_gradingform_guide
+        - behat_gradingform_rubric
+        - behat_groups
+        - behat_hooks
+        - behat_login
+        - behat_message
+        - behat_message_popup
+        - behat_mod_chat
+        - behat_mod_choice
+        - behat_mod_data
+        - behat_mod_feedback
+        - behat_mod_glossary
+        - behat_mod_workshop
+        - behat_permissions
+        - behat_qtype_ddimageortext
+        - behat_qtype_ddmarker
+        - behat_qtype_ddwtos
+        - behat_qtype_gapselect
+        - behat_qtype_multichoice
+        - behat_question
+        - behat_report_outline
+        - behat_search
+        - behat_theme_classic_behat_admin
+        - behat_theme_classic_behat_blocks
+        - behat_theme_classic_behat_course
+        - behat_theme_classic_behat_grade
+        - behat_theme_classic_behat_mod_forum
+        - behat_theme_classic_behat_mod_quiz
+        - behat_theme_classic_behat_navigation
+        - behat_theme_classic_behat_repository_upload
+        - behat_tool_dataprivacy
+        - behat_tool_langimport
+        - behat_tool_lp
+        - behat_tool_lp_data_generators
+        - behat_tool_policy
+        - behat_tool_task
+        - behat_tool_usertours
+        - behat_transformations
+        - behat_user
+        - behat_workshopallocation_manual
+  extensions:
+    emuse\BehatHTMLFormatter\BehatHTMLFormatterExtension:
+      name: html
+      renderer: Twig,Behat2
+      file_name: index
+      print_args: true
+      print_outp: true
+      loop_break: true
+    DVDoug\Behat\CodeCoverage\Extension:
+            filter:
+                include:
+                    directories:
+                        'src': ~
+            reports:
+                html:
+                    target: ../../CodeCoverage
+                text:
+                    showColors: true
+    Behat\MinkExtension:
+      base_url: 'http://127.0.0.1/moodle3'
+      goutte: null
+      webdriver:
+        wd_host: 'http://localhost:4444/wd/hub'
+    Moodle\BehatExtension:
+      moodledirroot: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3'
+      steps_definitions:
+        behat_accessibility: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_accessibility.php'
+        behat_action_menu: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_action_menu.php'
+        behat_admin: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tests\behat\behat_admin.php'
+        behat_app: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_app.php'
+        behat_assignfeedback_editpdf: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\assign\feedback\editpdf\tests\behat\behat_assignfeedback_editpdf.php'
+        behat_auth: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\auth\tests\behat\behat_auth.php'
+        behat_auth_email: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\auth\email\tests\behat\behat_auth_email.php'
+        behat_backup: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\backup\util\ui\tests\behat\behat_backup.php'
+        behat_block_comments: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\blocks\comments\tests\behat\behat_block_comments.php'
+        behat_block_site_main_menu: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\blocks\site_main_menu\tests\behat\behat_block_site_main_menu.php'
+        behat_block_social_activities: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\blocks\social_activities\tests\behat\behat_block_social_activities.php'
+        behat_blocks: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\blocks\tests\behat\behat_blocks.php'
+        behat_calendar: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\calendar\tests\behat\behat_calendar.php'
+        behat_cohort: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\cohort\tests\behat\behat_cohort.php'
+        behat_completion: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\completion\tests\behat\behat_completion.php'
+        behat_core_form: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\form\tests\behat\behat_core_form.php'
+        behat_core_question: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\question\tests\behat\behat_core_question.php'
+        behat_course: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\course\tests\behat\behat_course.php'
+        behat_data_generators: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_data_generators.php'
+        behat_deprecated: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_deprecated.php'
+        behat_editor_atto: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\editor\atto\tests\behat\behat_editor_atto.php'
+        behat_enrol: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\enrol\tests\behat\behat_enrol.php'
+        behat_filepicker: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\repository\tests\behat\behat_filepicker.php'
+        behat_filters: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_filters.php'
+        behat_forms: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_forms.php'
+        behat_general: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_general.php'
+        behat_grade: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\grade\tests\behat\behat_grade.php'
+        behat_gradereport_grader: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\grade\report\grader\tests\behat\behat_gradereport_grader.php'
+        behat_grading: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\grade\grading\tests\behat\behat_grading.php'
+        behat_gradingform_guide: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\grade\grading\form\guide\tests\behat\behat_gradingform_guide.php'
+        behat_gradingform_rubric: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\grade\grading\form\rubric\tests\behat\behat_gradingform_rubric.php'
+        behat_groups: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\group\tests\behat\behat_groups.php'
+        behat_hooks: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_hooks.php'
+        behat_login: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\login\tests\behat\behat_login.php'
+        behat_message: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\message\tests\behat\behat_message.php'
+        behat_message_popup: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\message\output\popup\tests\behat\behat_message_popup.php'
+        behat_mod_chat: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\chat\tests\behat\behat_mod_chat.php'
+        behat_mod_choice: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\choice\tests\behat\behat_mod_choice.php'
+        behat_mod_data: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\data\tests\behat\behat_mod_data.php'
+        behat_mod_feedback: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\feedback\tests\behat\behat_mod_feedback.php'
+        behat_mod_forum: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\forum\tests\behat\behat_mod_forum.php'
+        behat_mod_glossary: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\glossary\tests\behat\behat_mod_glossary.php'
+        behat_mod_quiz: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\quiz\tests\behat\behat_mod_quiz.php'
+        behat_mod_workshop: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\workshop\tests\behat\behat_mod_workshop.php'
+        behat_navigation: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_navigation.php'
+        behat_permissions: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_permissions.php'
+        behat_qtype_ddimageortext: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\question\type\ddimageortext\tests\behat\behat_qtype_ddimageortext.php'
+        behat_qtype_ddmarker: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\question\type\ddmarker\tests\behat\behat_qtype_ddmarker.php'
+        behat_qtype_ddwtos: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\question\type\ddwtos\tests\behat\behat_qtype_ddwtos.php'
+        behat_qtype_gapselect: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\question\type\gapselect\tests\behat\behat_qtype_gapselect.php'
+        behat_qtype_multichoice: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\question\type\multichoice\tests\behat\behat_qtype_multichoice.php'
+        behat_question: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\question\tests\behat\behat_question.php'
+        behat_report_outline: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\report\outline\tests\behat\behat_report_outline.php'
+        behat_repository_upload: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\repository\upload\tests\behat\behat_repository_upload.php'
+        behat_search: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\search\tests\behat\behat_search.php'
+        behat_tool_dataprivacy: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tool\dataprivacy\tests\behat\behat_tool_dataprivacy.php'
+        behat_tool_langimport: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tool\langimport\tests\behat\behat_tool_langimport.php'
+        behat_tool_lp: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tool\lp\tests\behat\behat_tool_lp.php'
+        behat_tool_lp_data_generators: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tool\lp\tests\behat\behat_tool_lp_data_generators.php'
+        behat_tool_policy: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tool\policy\tests\behat\behat_tool_policy.php'
+        behat_tool_task: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tool\task\tests\behat\behat_tool_task.php'
+        behat_tool_usertours: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\admin\tool\usertours\tests\behat\behat_tool_usertours.php'
+        behat_transformations: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\lib\tests\behat\behat_transformations.php'
+        behat_user: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\user\tests\behat\behat_user.php'
+        behat_workshopallocation_manual: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\mod\workshop\allocation\manual\tests\behat\behat_workshopallocation_manual.php'
+        behat_theme_classic_behat_admin: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_admin.php'
+        behat_theme_classic_behat_blocks: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_blocks.php'
+        behat_theme_classic_behat_course: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_course.php'
+        behat_theme_classic_behat_grade: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_grade.php'
+        behat_theme_classic_behat_mod_forum: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_mod_forum.php'
+        behat_theme_classic_behat_mod_quiz: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_mod_quiz.php'
+        behat_theme_classic_behat_navigation: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_navigation.php'
+        behat_theme_classic_behat_repository_upload: 'D:\trabajo\DigitalCampus\dev\xampp7\htdocs\moodle3\theme\classic\tests\behat\behat_theme_classic_behat_repository_upload.php'
+chromedriver:
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: chrome
+        wd_host: 'http://localhost:9515'
+        capabilities:
+          extra_capabilities:
+            chromeOptions:
+              args:
+                - disable-web-security
+                - unlimited-storage
+          marionette: true
+headlesschromedriver:
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: chrome
+        wd_host: 'http://localhost:9515'
+        capabilities:
+          extra_capabilities:
+            chromeOptions:
+              args:
+                - disable-web-security
+                - headless
+                - no-gpu
+                - unlimited-storage
+          marionette: true
+chrome:
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: chrome
+        wd_host: 'http://localhost:4444/wd/hub'
+        capabilities:
+          extra_capabilities:
+            chromeOptions:
+              args:
+                - disable-web-security
+                - unlimited-storage
+          marionette: true
+headlesschrome:
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: chrome
+        wd_host: 'http://localhost:4444/wd/hub'
+        capabilities:
+          extra_capabilities:
+            chromeOptions:
+              args:
+                - disable-web-security
+                - headless
+                - no-gpu
+                - unlimited-storage
+          marionette: true
+geckodriver:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: firefox
+        wd_host: 'http://localhost:4444'
+        capabilities:
+          extra_capabilities:
+            'moz:firefoxOptions':
+              prefs:
+                devtools.console.stdout.content: true
+              log:
+                level: trace
+          marionette: true
+headlessgeckodriver:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: firefox
+        wd_host: 'http://localhost:4444'
+        capabilities:
+          extra_capabilities:
+            'moz:firefoxOptions':
+              prefs:
+                devtools.console.stdout.content: true
+              log:
+                level: trace
+              args:
+                - '-headless'
+          marionette: true
+firefox:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: firefox
+        wd_host: 'http://localhost:4444/wd/hub'
+        capabilities:
+          extra_capabilities:
+            'moz:firefoxOptions':
+              prefs:
+                devtools.console.stdout.content: true
+              log:
+                level: trace
+          marionette: true
+headlessfirefox:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: firefox
+        wd_host: 'http://localhost:4444/wd/hub'
+        capabilities:
+          extra_capabilities:
+            'moz:firefoxOptions':
+              prefs:
+                devtools.console.stdout.content: true
+              log:
+                level: trace
+              args:
+                - '-headless'
+          marionette: true
+edgedriver:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: edge
+        wd_host: 'http://localhost:9515'
+        capabilities:
+          extra_capabilities:
+            browserName: MicrosoftEdge
+            'ms:edgeOptions': {  }
+            'ms:edgeChromium': true
+          marionette: true
+headlessedgedriver:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: edge
+        wd_host: 'http://localhost:9515'
+        capabilities:
+          extra_capabilities:
+            browserName: MicrosoftEdge
+            'ms:edgeOptions':
+              args:
+                - headless
+                - no-gpu
+            'ms:edgeChromium': true
+          marionette: true
+edge:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: edge
+        wd_host: 'http://localhost:4444/wd/hub'
+        capabilities:
+          extra_capabilities:
+            browserName: MicrosoftEdge
+            'ms:edgeOptions': {  }
+            'ms:edgeChromium': true
+          marionette: true
+headlessedge:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: edge
+        wd_host: 'http://localhost:4444/wd/hub'
+        capabilities:
+          extra_capabilities:
+            browserName: MicrosoftEdge
+            'ms:edgeOptions':
+              args:
+                - headless
+                - no-gpu
+            'ms:edgeChromium': true
+          marionette: true
+safaridriver:
+  suites:
+    default:
+      filters:
+        tags: ~@app
+  extensions:
+    Behat\MinkExtension:
+      webdriver:
+        browser: safari
+        wd_host: 'http://localhost:4444'
+        capabilities:
+          extra_capabilities: {  }
+          marionette: true
