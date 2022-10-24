@@ -134,7 +134,7 @@ function xmldb_block_oppia_mobile_export_upgrade($oldversion) {
 		$table->add_field('id', XMLDB_TYPE_INTEGER, '10', null, XMLDB_NOTNULL, XMLDB_SEQUENCE, null);
 		$table->add_field('courseid', XMLDB_TYPE_INTEGER, '18', null, XMLDB_NOTNULL, null, '0');
 		$table->add_field('modid', XMLDB_TYPE_INTEGER, '10', null, XMLDB_NOTNULL, null, '0');
-		$table->add_field('digest', XMLDB_TYPE_CHAR, '100', null, XMLDB_NOTNULL, null, '');
+		$table->add_field('digest', XMLDB_TYPE_CHAR, '100', null, XMLDB_NOTNULL, null, null);
 		$table->add_field('updated', XMLDB_TYPE_INTEGER, '18', null, null, null, '0');
 		$table->add_field('serverid', XMLDB_TYPE_CHAR, '200', null, null, null, '');
 		$table->add_field('status', XMLDB_TYPE_CHAR, '20', null, null, null, '');

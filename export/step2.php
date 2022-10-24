@@ -198,15 +198,16 @@ if ($sect_orderno <= 1){
 	die();
 }
 
-echo $OUTPUT->render_from_template(
-	PLUGINNAME.'/export_step2_form', 
-	array(
-		'id' => $id,
-		'server_id' => $server,
-		'stylesheet' => $stylesheet,
-		'course_export_status' => $course_export_status,
-		'sections' => $config_sections,
-		'wwwroot' => $CFG->wwwroot));
+$data = [
+	'id' => $id,
+	'server_id' => $server,
+	'stylesheet' => $stylesheet,
+	'course_export_status' => $course_export_status,
+	'sections' => $config_sections,
+	'wwwroot' => $CFG->wwwroot
+];
+
+echo $OUTPUT->render_from_template(PLUGINNAME.'/export_step2_form', $data);
 
 echo $OUTPUT->footer();
 

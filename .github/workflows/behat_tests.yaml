@@ -1,0 +1,21 @@
+name: Behat tests
+
+on: [push]
+
+jobs:
+  behat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: shivammathur/setup-php@verbose
+        with:
+          php-version: '7.4'
+
+      - name: Install dependencies
+        uses: php-actions/composer@v6
+        with:
+          command: require --dev behat/behat
+      - name: Behat Tests
+        run: |
+          nohup php -S localhost:8081 -t web/ > phpd.log 2>&1 &
+          ./vendor/bin/behat --config tests/behat/behat.yml --tags=@block_oppia_mobile_export
