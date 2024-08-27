@@ -1,1 +1,0 @@
-// Complete with noora specific javascript. Currently in oppia.js

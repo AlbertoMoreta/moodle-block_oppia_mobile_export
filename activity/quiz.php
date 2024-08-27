@@ -480,6 +480,7 @@ class MobileActivityQuiz extends MobileActivity {
         $webpage .= '<link href="style.css" rel="stylesheet" type="text/css"/>';
         $webpage .= '<script src="js/jquery-3.6.0.min.js"></script>';
         $webpage .= '<script src="js/oppia.js"></script>';
+        $webpage .= '<script src="js/custom.js"></script>';
         $webpage .= '</head>';
         $webpage .= '<body>'.$content.'</body></html>';
         

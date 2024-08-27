@@ -42,3 +42,5 @@ define('OPPIA_HTML_STRONG_END', '</strong>');
 define('OPPIA_HTML_LI_END', '</li>');
 define('OPPIA_HTML_H2_START', '<h2>');
 define('OPPIA_HTML_H2_END', '</h2>');
+
+define('JS_DIR', 'js/');

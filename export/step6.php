@@ -178,6 +178,14 @@ if (!$xml->schemaValidate($pluginroot.'oppia-schema.xsd')) {
 
     echo '<p class="step">'. get_string('export_style_resources', PLUGINNAME) . '</p>';
 
+    $js = get_javascript_theme($pluginroot, $stylesheet);
+    if (!empty($js)) {
+        echo '<p class="step">'. get_string('export_javascript_start', PLUGINNAME) . ' - ' . $stylesheet . '</p>';
+        if (!file_put_contents($courseroot."/js/custom.js", $js)) {
+            echo "<p>".get_string('error_javascript_copy', PLUGINNAME)."</p>";
+        }
+    }
+
     $styleresourcesdir = $courseroot.COURSE_STYLES_RESOURCES_DIR;
     recurse_copy($pluginroot."styles/".COMMON_STYLES_RESOURCES_DIR, $styleresourcesdir);
     recurse_copy($pluginroot."styles/".$stylesheet."-style-resources/", $styleresourcesdir);

@@ -589,6 +589,15 @@ function get_compiled_css_theme($pluginroot, $theme) {
     return $css;
 }
 
+function get_javascript_theme($pluginroot, $theme) {
+    $jsroot = $pluginroot.JS_DIR;
+    $jsfile = $jsroot.$theme.'.js';
+    if (file_exists($jsfile)) {
+        return file_get_contents($jsfile);
+    }
+    return '';
+}
+
 /**
  * Serve the files from the block file areas
  *
